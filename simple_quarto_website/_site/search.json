@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "slides/slides.html#citation",
+    "href": "slides/slides.html#citation",
+    "title": "The Presentation Slides",
+    "section": "Citation",
+    "text": "Citation\n(LeCun, Bengio, and Hinton 2015)"
+  },
+  {
+    "objectID": "slides/slides.html#pictures",
+    "href": "slides/slides.html#pictures",
+    "title": "The Presentation Slides",
+    "section": "Pictures",
+    "text": "Pictures\n\n\n\n\n\nImage 1\n\n\n\n\n\n\nImage 2"
+  },
+  {
+    "objectID": "slides/slides.html#python-code-block",
+    "href": "slides/slides.html#python-code-block",
+    "title": "The Presentation Slides",
+    "section": "Python code block",
+    "text": "Python code block\n\nimport numpy as np\nimport matplotlib.pyplot as plt\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\n\n\nLeCun, Yann, Yoshua Bengio, and Geoffrey Hinton. 2015. “Deep Learning.” Nature 521 (7553): 436–44."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.\n\n\nEtiam auctor purus at neque feugiat convallis. Cras nec magna lectus.\n\n\nVestibulum tincidunt nulla in quam efficitur, at feugiat libero faucibus. Duis id sapien nec magna fringilla sodales sit amet a eros.\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\nplt.plot(x, y, label='Sine Wave')\nplt.title('Sine Wave Plot')\nplt.show()"
+  },
+  {
+    "objectID": "about.html#header-2",
+    "href": "about.html#header-2",
+    "title": "About",
+    "section": "",
+    "text": "Etiam auctor purus at neque feugiat convallis. Cras nec magna lectus.\n\n\nVestibulum tincidunt nulla in quam efficitur, at feugiat libero faucibus. Duis id sapien nec magna fringilla sodales sit amet a eros.\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\nplt.plot(x, y, label='Sine Wave')\nplt.title('Sine Wave Plot')\nplt.show()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor purus at neque feugiat convallis. Cras nec magna lectus.\n\nVestibulum tincidunt nulla in quam efficitur, at feugiat libero faucibus. Duis id sapien nec magna fringilla sodales sit amet a eros.\n\n\n\n\n\nLorem ipsum dolor sit amet\nConsectetur adipiscing elit\nIn hendrerit lectus id mauris\nDapibus ac tincidunt dui tincidunt\n\n\n\n\n\n\n\nName\nAge\nProfession\n\n\n\n\nAlice\n28\nSoftware Engineer\n\n\nBob\n34\nData Scientist\n\n\nCindy\n41\nArchitect\n\n\n\n\n\n\n\\(a^2 + b^2 = c^2\\).\n\n\n\n\\[\ne^{i\\pi} + 1 = 0\n\\]\n\n\n\nHere is a statement that requires a footnote.1\n\n\n\n\n“The only way to do great work is to love what you do.” - Steve Jobs\n\n\n\n\n\n\n\n\n\nImage 1\n\n\n\n\n\n\nImage 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\n\n\n(LeCun, Bengio, and Hinton 2015)"
+  },
+  {
+    "objectID": "index.html#two-column-text",
+    "href": "index.html#two-column-text",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor purus at neque feugiat convallis. Cras nec magna lectus.\n\nVestibulum tincidunt nulla in quam efficitur, at feugiat libero faucibus. Duis id sapien nec magna fringilla sodales sit amet a eros.\n\n\n\n\n\nLorem ipsum dolor sit amet\nConsectetur adipiscing elit\nIn hendrerit lectus id mauris\nDapibus ac tincidunt dui tincidunt\n\n\n\n\n\n\n\nName\nAge\nProfession\n\n\n\n\nAlice\n28\nSoftware Engineer\n\n\nBob\n34\nData Scientist\n\n\nCindy\n41\nArchitect\n\n\n\n\n\n\n\\(a^2 + b^2 = c^2\\).\n\n\n\n\\[\ne^{i\\pi} + 1 = 0\n\\]\n\n\n\nHere is a statement that requires a footnote.1\n\n\n\n\n“The only way to do great work is to love what you do.” - Steve Jobs\n\n\n\n\n\n\n\n\n\nImage 1\n\n\n\n\n\n\nImage 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\n\n\n(LeCun, Bengio, and Hinton 2015)"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is the text for the footnote. It provides additional information.↩︎"
+  }
+]

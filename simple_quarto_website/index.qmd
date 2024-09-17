@@ -1,0 +1,82 @@
+---
+title: "simple_quarto_website"
+bibliography: reference.bib
+---
+
+# The biggest heading
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.
+
+## Two-column text
+
+::: columns
+::: column
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor purus at neque feugiat convallis. Cras nec magna lectus.
+:::
+::: column
+Vestibulum tincidunt nulla in quam efficitur, at feugiat libero faucibus. Duis id sapien nec magna fringilla sodales sit amet a eros.
+:::
+:::
+
+### Bulleted list
+
+- Lorem ipsum dolor sit amet
+- Consectetur adipiscing elit
+- In hendrerit lectus id mauris
+- Dapibus ac tincidunt dui tincidunt
+
+### Markdown Table
+
+| Name        | Age | Profession     |
+|-------------|-----|----------------|
+| Alice    | 28  | Software Engineer |
+| Bob  | 34  | Data Scientist |
+| Cindy | 41  | Architect      |
+
+### Inline Math
+
+ $a^2 + b^2 = c^2$.
+
+### LaTeX Block Equation
+
+$$
+e^{i\pi} + 1 = 0
+$$
+
+### Foot-note
+
+Here is a statement that requires a footnote.[^1]
+
+[^1]: This is the text for the footnote. It provides additional information.
+
+
+### A Quote Example
+
+> "The only way to do great work is to love what you do." - Steve Jobs
+
+### Embedded Images
+
+::: columns
+::: column
+![Image 1](./images/pic_1.jpg "Image 1")
+:::
+::: column
+![Image 2](./images/pic_2.jpg "Image 2")
+:::
+:::
+
+### Embedded Video
+
+{{< video ./videos/video_1.mp4 >}}
+
+### Mermaid Diagram
+```{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+
+### Citations from .bib
+[@lecun2015deep]
